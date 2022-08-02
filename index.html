@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>TEAM GENERATOR</title>
+</head>
+<body>
+    <div class="body">
+        
+        <div class="heading">
+            <h1>TEAM GENERATOR</h1>
+        </div>
+        
+        <div class="flex-container">
+            <div class="right-flex-container">
+                <div>
+                    <label for="name">Add Member</label></br>
+                    <input type="text" name="members" id="name" placeholder="Enter Member Name" class="input">
+                    <button type="button" id="add"  value="submit">add</button>
+                </div>
+                <div>
+                    <label for="teams-number">Team</label>
+                </br>
+                    <input type="button" class="buttons-color" name="minus" id="minus" value="-">
+                    <input type="number" name="quantity" id="teams-number" min="1" max="10" placeholder="numbers">
+                    <input type="button" name="plus" class="buttons-color"  id="plus" value="+">
+                </div>
+            
+                <div class="members-list">
+                    <ul class="members">
+                        <li class="members-name"></li>
+                        <li class="members-name"></li>
+                        <li class="members-name"></li>
+                        <li class="members-name"></li>
+                        <li class="members-name"></li>
+                        <li class="members-name"></li>
+                    </ul>
+                </div>
+
+                <div class="submit">
+                    <button class=" assign-button">Assign Member</button>
+                    <button class="reset-button">Reset</button>
+                </div>
+
+            </div>
+            
+            <div class="left-flex-container">
+                <div class="teams">
+                    <h2>Team 1</h2>
+                    <ul>
+                        <li class="team-member">hello</li>
+                        <li class="team-member">hello</li>
+                        <li class="team-member">hello</li>
+                    </ul>
+                </div>
+                <div class="teams">
+                    <h2>Team 2</h2>
+                    <ul>
+                        <li class="team-member">hello</li>
+                        <li class="team-member">hello</li>
+                        <li class="team-member">hello</li>
+                    </ul>
+                </div>
+                <div class="teams">
+                    <h2>Team 3</h2>
+                    <ul>
+                        <li class="team-member">hello</li>
+                        <li class="team-member">hello</li>
+                        <li class="team-member">hello</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
